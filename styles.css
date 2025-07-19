@@ -1,0 +1,44 @@
+.card-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 450px;
+  }
+
+.look_button {
+    margin-top: auto;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #000;
+    width: 90%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+
+.look_button:hover {
+    background-color: #444;
+  }
+
+a {
+    text-decoration: none;
+  }
